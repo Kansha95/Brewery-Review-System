@@ -9,7 +9,7 @@ app.use(express.json());
 // Connect to MongoDB (replace with your MongoDB connection string)
 mongoose.connect('
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Guest123:<password>@brewerycluster0.nhbhmyl.mongodb.net/?retryWrites=true&w=majority&appName=BreweryCluster0";
+const uri = "mongodb+srv://Guest123:<Guest123>@brewerycluster0.nhbhmyl.mongodb.net/?retryWrites=true&w=majority&appName=BreweryCluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
