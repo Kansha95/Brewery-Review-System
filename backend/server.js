@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB (replace with your MongoDB connection string)
-mongoose.connect(mongodb+srv://Guest123:<Guest123>@brewerycluster0.nhbhmyl.mongodb.net/?retryWrites=true&w=majority&appName=BreweryCluster0, {
+mongoose.connect('mongodb+srv://Guest123:<Guest123>@brewerycluster0.nhbhmyl.mongodb.net/?retryWrites=true&w=majority&appName=BreweryCluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
